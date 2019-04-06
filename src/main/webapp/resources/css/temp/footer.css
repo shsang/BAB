@@ -1,1 +1,59 @@
-@charset "EUC-KR";
+footer {
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    margin-top: 120px;
+    padding: 63px 31px 40px 31px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    background: rgb(245,245,245);
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0,0,0,0.38);
+}
+footer .align {
+    width: 1024px;
+    margin: 0 auto;
+}
+a, input, button, div, li, textarea, form, label, select {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+footer .link {
+    overflow: hidden;
+}
+ul, ol, li {
+    list-style: none;
+}
+footer .link li {
+    float: left;
+    margin-bottom: 0;
+    line-height: normal;
+}
+footer .link li a {
+    display: inline-block;
+}
+footer .link li span {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    width: 24px;
+    font-size: 11px;
+    text-align: center;
+}
+footer a {
+    color: rgba(0,0,0,0.38);
+}
+footer p {
+    clear: both;
+    padding: 37px 0 24px 0;
+}
+footer address span {
+    display: block;
+    padding-bottom: 7px;
+}
+footer address {
+    line-height: 22px;
+}
+address, caption, em, var {
+    font-style: normal;
+    font-weight: normal;
+}
