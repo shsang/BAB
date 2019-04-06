@@ -11,12 +11,15 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.mycompany.bab.HomeController;
+
 @Controller 
-public class AuthController {	 
+public class AuthController {
+	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	@RequestMapping(value = "/user/login", method = RequestMethod.GET)
 	public String Login(Locale locale, Model model) {		
-		return "auth/login";   
+		return "auth/login";  
 	} 
 	@RequestMapping(value = "/user/join", method = RequestMethod.GET)
 	public String Join(Locale locale, Model model) {		
