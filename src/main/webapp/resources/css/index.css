@@ -1,0 +1,119 @@
+#content {
+    overflow: hidden;
+}
+.main_spot {
+    height: 454px;
+    background: #f7323f url(//image.goodchoice.kr/images/web_v3/mainspot_181022.jpg) 50% 100% no-repeat;
+    background-size: 760px 382px;
+}
+.main_link {
+    padding: 32px 0 29px 41px;
+    background: rgb(253,253,253);
+}
+.main_link ul {
+    overflow: hidden;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_link li a {
+    display: block;
+    height: 107px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.56);
+    text-align: center;
+}
+.main_link li {
+    width: 109px;
+    display: inline-block;
+}
+.main_link .ico_01 {
+    background: url(//image.goodchoice.kr/images/web_v3/ico_category_180801.png) -144px -72px no-repeat;
+    background-size: 216px auto;
+}
+.main_link li a span {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+}
+.main_link .ico_02 {
+    background: url(//image.goodchoice.kr/images/web_v3/ico_category_180801.png) -144px 0 no-repeat;
+    background-size: 216px auto;
+}
+.main_link .ico_03 {
+    background: url(//image.goodchoice.kr/images/web_v3/ico_category_180801.png) -72px -144px no-repeat;
+    background-size: 216px auto;
+}
+.main_link .ico_07 {
+    background: url(//image.goodchoice.kr/images/web_v3/ico_category_180801.png) 0 -144px no-repeat;
+    background-size: 216px auto;
+}
+.recommend {
+    width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 78px 31px 0 31px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+ul, ol, li {
+    list-style: none;
+}
+.recommend li {
+    overflow: hidden;
+    float: left;
+    position: relative;
+    width: 473px;
+    height: 162px;
+    margin: 0 0 16px 0;
+    padding: 0 24px 0 186px;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-sizing: border-box;
+}
+.recommend li a {
+    display: block;
+    height: 162px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgba(0,0,0,0.56);
+    box-sizing: border-box;
+}
+.recommend li:nth-child(even) {
+    margin-left: 16px;
+}
+.recommend li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 162px;
+    height: 162px;
+}
+.recommend li strong {
+    display: block;
+    padding: 38px 0 14px 0;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: normal;
+    color: rgb(0,121,107);
+}
+.event_main {
+    width: 962px;
+    margin: 0 auto;
+}
+.event_main h2 {
+    padding: 0;
+}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: #f7323f;
+   	width: 962px;
+    height: 193px;
+    
+}
