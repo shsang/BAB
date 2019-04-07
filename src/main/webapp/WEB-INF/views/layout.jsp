@@ -9,6 +9,7 @@
 <style type="text/css">
 
 </style>
+<link rel="stylesheet" href="/bab/resources/css/<tiles:getAsString name="css"/>.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 
@@ -18,6 +19,9 @@
 	<header>
 		<tiles:insertAttribute name="header"/>
 	</header>
+	<nav>
+		<tiles:insertAttribute name="nav"/>
+	</nav>
 	<section>
 		<tiles:insertAttribute name="content"/>
 	</section>
