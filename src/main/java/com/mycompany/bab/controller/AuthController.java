@@ -18,6 +18,10 @@ public class AuthController {
 	public String Login(Locale locale, Model model) {		
 		return "auth/login";   
 	} 
+	@RequestMapping(value = "/user/mypage", method = RequestMethod.GET)
+	public String myPage(Locale locale, Model model) {		
+		return "myPage";   
+	} 
 	@RequestMapping(value = "/user/join", method = RequestMethod.GET)
 	public String Join(Locale locale, Model model) {		
 		return "auth/join";

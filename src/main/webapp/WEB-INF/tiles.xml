@@ -14,4 +14,10 @@
 		<put-attribute name="nav" value="/WEB-INF/views/templates/more_nav.jsp" />
 		<put-attribute name="content" value="/WEB-INF/views/more/notice.jsp" />
 	</definition>
+	
+	<definition name="myPage" extends="layout">
+		<put-attribute name="css" value="myPage"/>
+		<put-attribute name="nav" value="/WEB-INF/views/templates/more_nav.jsp" />
+		<put-attribute name="content" value="/WEB-INF/views/auth/myPage.jsp" />
+	</definition>
 </tiles-definitions>
