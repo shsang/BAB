@@ -10,6 +10,7 @@
 
 </style>
 <link rel="stylesheet" href="/bab/resources/css/<tiles:getAsString name="css"/>.css" type="text/css">
+<link rel="stylesheet" href="/bab/resources/css/layout.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 
