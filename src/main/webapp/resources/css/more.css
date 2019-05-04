@@ -25,6 +25,7 @@ nav{
 }
 #nav_more>.nav_menu{
 	margin-top: 50px;
+	margin-bottom: 100px;
 }
 #nav_more>.nav_menu>ul{
 	list-style: none;
@@ -32,7 +33,7 @@ nav{
 }
 #nav_more>.nav_menu>ul>li{
 	margin-bottom: 20px;
-	font-size: 18px;
+	font-size: 15px;
 	color:#6F6F6F;
 }
 #nav_more>.nav_menu>ul>.curr{
@@ -42,16 +43,16 @@ nav{
 
 /*section*/
 #notice_wrap{
-	width: 750px;
+	width: 1050px;
 	margin-top: 50px;
-	padding-left:380px;
-	
+	padding-left:380px;	
 }
 #notice_wrap>.title{
 	color:#CC3D3D;
 	font-weight: bold;
 	font-size: 20px;
 	border-bottom: 1px solid #E1E1E1;
+	padding-bottom: 10px;
 }
 
 
@@ -62,19 +63,28 @@ nav{
 	width: 100%;
 }
 #notice_wrap>.list>ul>li{
-	height: 130px;
+	height: 110px;
 	border-bottom: 1px solid rgba(234,234,234,0.8);
+	position: relative;
 }
 #notice_wrap>.list>ul>li>p{
 	margin: 0;
 }
 #notice_wrap>.list>ul>li>p:first-of-type{
 	padding-top: 30px;
-	font-size: 17px;
+	font-size: 15px;
 }
 #notice_wrap>.list>ul>li>p:last-of-type{
 	margin-top: 10px;
 	color:rgb(207,207,207);
+}
+#notice_wrap>.list>ul>li>img{
+	position: absolute;	
+	right: 0;
+	width: 20px;
+	margin-top: -30px;
+	margin-right: 10px;
+	
 }
 
 /*footer*/
